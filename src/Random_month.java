@@ -36,7 +36,7 @@ public class Random_month {
         
 	}
 	
-	public static int randInt(int min, int max) {
+	public static int randInt(int min, int max) {    //随机生成整数
 
 	    // NOTE: Usually this should be a field rather than a method
 	    // variable so that it is not re-seeded every call.
