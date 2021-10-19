@@ -11,7 +11,7 @@ import java.util.Random;
  * @see java.util.Random#nextInt(int)
  */
 
-public class Random_month {
+public class Random_month {//3-4更新一下备注
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
