@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Check_ISBN {
+public class Check_ISBN {//3-9更新一下备注
 
 
 	/*private static int getNumLenght(int num){//本来想来个判断是不是9位数来着，结果不太行，就先注释掉了
