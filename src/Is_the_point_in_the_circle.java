@@ -6,8 +6,8 @@ public class Is_the_point_in_the_circle {
 		// TODO Auto-generated method stub
 		Scanner input=new Scanner(System.in);
 		System.out.print("Enter point coordinates(x,y): ");
-		int x=input.nextInt();
-		int y=input.nextInt();
+		float x=input.nextInt();
+		float y=input.nextInt();
 		if(Math.pow((Math.pow(x, 2)+Math.pow(y, 2)),0.5)<=10) {
 			System.out.println("Point ("+x+","+y+") in circle");
 		}
