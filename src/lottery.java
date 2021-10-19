@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class lottery {
+public class lottery {//3-15更新一下备注
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
