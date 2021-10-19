@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Triangle_perimeter {
+public class Triangle_perimeter {//3-19更新备注顺便把int换成float，最终决定还是不改了，出现了浮点数的相关问题
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -10,7 +10,7 @@ public class Triangle_perimeter {
 		int b=input.nextInt();
 	    int c=input.nextInt();
 	    if(a+b>c&&a+c>b&&b+c>a) {
-	    	int C=a+b+c;
+	    	float C=a+b+c;
 	    	System.out.println(C);
 	    }
 	    else {
