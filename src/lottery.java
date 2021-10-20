@@ -15,11 +15,11 @@ public class lottery {//3-15更新一下备注
 		int n1=num/100;    //输入数值的百十个位
 		int n2=num/10%10;
 		int n3=num%10;
-		int n132=n1*100+n3*10+n2;    //输入数值排列组合的剩下五种情况
-		int n213=n2*100+n1*10+n3;
-		int n231=n2*100+n3*10+n1;
-		int n312=n3*100+n1*10+n2;
-		int n321=n3*100+n2*10+n1;
+		int n132=nOne*100+nThree*10+nTwo;    //输入数值排列组合的剩下五种情况
+		int n213=nTwo*100+nOne*10+nThree;
+		int n231=nTwo*100+nTwo*10+nOne;
+		int n312=nThree*100+nOne*10+nTwo;
+		int n321=nThree*100+nTwo*10+nOne;
 		if(num==n) {
 			System.out.println("$10000");
 		}
