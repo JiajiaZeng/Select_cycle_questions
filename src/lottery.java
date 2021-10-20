@@ -6,7 +6,7 @@ public class lottery {//3-15更新一下备注
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         Scanner input=new Scanner(System.in);
-		int n=randInt(99,1000);
+		int n=randInt(0,1000);//最新修改，考虑诸如00X的情况
 		System.out.print("Enter a number: ");
 		int num=input.nextInt();
 		int nOne=n/100;    //随机生成数的个百十个位
