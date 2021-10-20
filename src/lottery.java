@@ -32,6 +32,7 @@ public class lottery {//3-15更新一下备注
 		else {
 			System.out.println("no money");
 		}
+		System.out.println("The real number is "+n);
 	}
 	
 	public static int randInt(int min, int max) {    //随机生成整数
