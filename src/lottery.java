@@ -9,12 +9,12 @@ public class lottery {//3-15更新一下备注
 		int n=randInt(99,1000);
 		System.out.print("Enter a number: ");
 		int num=input.nextInt();
-		int nOne=n%100;    //随机生成数的个十百位
+		int nOne=n/100;    //随机生成数的个百十个位
 		int nTwo=n/10%10;
-		int nThree=n/100;
-		int n1=num%100;    //输入数值的个十百位
+		int nThree=n%10;
+		int n1=num/100;    //输入数值的百十个位
 		int n2=num/10%10;
-		int n3=num/100;
+		int n3=num%10;
 		int n132=n1*100+n3*10+n2;    //输入数值排列组合的剩下五种情况
 		int n213=n2*100+n1*10+n3;
 		int n231=n2*100+n3*10+n1;
@@ -23,7 +23,7 @@ public class lottery {//3-15更新一下备注
 		if(num==n) {
 			System.out.println("$10000");
 		}
-		else if(num==n132||num==n213||num==n231||num==n312||num==321) {
+		else if(num==n132||num==n213||num==n231||num==n312||num==n321) {
 			System.out.println("$3000");
 		}
 		else if(n1==nOne||n1==nTwo||n1==nThree||n2==nOne||n2==nTwo||n2==nThree||n3==nOne||n3==nTwo||n3==nThree) {
